@@ -747,7 +747,7 @@
         <groupId>androidx.work</groupId>
         <packageName>androidx.work</packageName>
         <artifactId>work-runtime</artifactId>
-        <version>2.5.0</version>
+        <version>2.7.0</version>
         <type>aar</type>
         <repo>google</repo>
         <category>support</category>
@@ -993,7 +993,7 @@
     <package name="user-messaging-platform">
         <groupId>com.google.android.ump</groupId>
         <artifactId>user-messaging-platform</artifactId>
-        <version>1.0.0</version>
+        <version>2.0.0</version>
         <type>aar</type>
         <repo>google</repo>
         <category>play-services</category>
@@ -1216,6 +1216,255 @@
         <category>play-services</category>
         <dependencies/>
     </package>
+    
+    <package name="play-services-base-18.0.1">
+        <groupId>com.google.android.gms</groupId>
+        <packageName>com.google.android.gms.common</packageName>
+        <artifactId>play-services-base</artifactId>
+        <version>18.0.1</version>
+        <type>aar</type>
+        <repo>google</repo>
+        <category>play-services</category>
+        <dependencies/>
+    </package>
+    <package name="play-services-basement-18.0.0">
+        <groupId>com.google.android.gms</groupId>
+        <packageName>com.google.android.gms.common</packageName>
+        <artifactId>play-services-basement</artifactId>
+        <version>18.0.0</version>
+        <type>aar</type>
+        <repo>google</repo>
+        <category>play-services</category>
+        <dependencies/>
+    </package>
+    <package name="play-services-tasks-18.0.0">
+        <groupId>com.google.android.gms</groupId>
+        <packageName>com.google.android.gms.tasks</packageName>
+        <artifactId>play-services-tasks</artifactId>
+        <version>18.0.0</version>
+        <type>aar</type>
+        <repo>google</repo>
+        <category>play-services</category>
+        <dependencies/>
+    </package>
+    <package name="play-services-ads-21.2.0">
+        <groupId>com.google.android.gms</groupId>
+        <packageName>com.google.android.gms.ads</packageName>
+        <artifactId>play-services-ads</artifactId>
+        <version>21.2.0</version>
+        <type>aar</type>
+        <repo>google</repo>
+        <category>play-services</category>
+        <dependencies/>
+    </package>
+    <package name="play-services-ads-base-21.2.0">
+        <groupId>com.google.android.gms</groupId>
+        <packageName>com.google.android.gms.common</packageName>
+        <artifactId>play-services-ads-base</artifactId>
+        <version>21.2.0</version>
+        <type>aar</type>
+        <repo>google</repo>
+        <category>play-services</category>
+        <dependencies/>
+    </package>
+    <package name="play-services-ads-identifier-18.0.0">
+        <groupId>com.google.android.gms</groupId>
+        <packageName>com.google.android.gms.ads.identifier</packageName>
+        <artifactId>play-services-ads-identifier</artifactId>
+        <version>18.0.0</version>
+        <type>aar</type>
+        <repo>google</repo>
+        <category>play-services</category>
+        <dependencies/>
+    </package>
+    <package name="play-services-ads-lite-21.2.0">
+        <groupId>com.google.android.gms</groupId>
+        <packageName>com.google.android.gms.ads.lite</packageName>
+        <artifactId>play-services-ads-lite</artifactId>
+        <version>21.2.0</version>
+        <type>aar</type>
+        <repo>google</repo>
+        <category>play-services</category>
+        <dependencies/>
+    </package>
+    <package name="play-services-appset-16.0.1">
+        <groupId>com.google.android.gms</groupId>
+        <packageName>com.google.android.gms.appset</packageName>
+        <artifactId>play-services-appset</artifactId>
+        <version>16.0.1</version>
+        <type>aar</type>
+        <repo>google</repo>
+        <category>play-services</category>
+        <dependencies/>
+    </package>
+    <package name="play-services-measurement-sdk-api-20.1.2">
+        <groupId>com.google.android.gms</groupId>
+        <packageName>com.google.android.gms.measurement.sdk.api</packageName>
+        <artifactId>play-services-measurement-sdk-api</artifactId>
+        <version>20.1.2</version>
+        <type>aar</type>
+        <repo>google</repo>
+        <category>play-services</category>
+        <dependencies/>
+    </package>
+    <package name="play-services-measurement-base-21.2.0">
+        <groupId>com.google.android.gms</groupId>
+        <packageName>com.google.android.gms</packageName>
+        <artifactId>play-services-measurement-base</artifactId>
+        <version>20.1.2</version>
+        <type>aar</type>
+        <repo>google</repo>
+        <category>play-services</category>
+        <dependencies>
+            <package name="play-services-basement-18.1.0">
+                <groupId>com.google.android.gms</groupId>
+                <packageName>com.google.android.gms.common</packageName>
+                <artifactId>play-services-basement</artifactId>
+                <version>18.1.0</version>
+                <type>aar</type>
+                <repo>google</repo>
+                <category>play-services</category>
+                <dependencies/>
+            </package>
+        </dependencies>
+    </package>
+    <package name="activity-1.0.0">
+        <groupId>androidx.activity</groupId>
+        <artifactId>activity</artifactId>
+        <version>1.0.0</version>
+        <type>aar</type>
+        <repo>google</repo>
+        <category>support</category>
+        <dependencies/>
+    </package>
+    <package name="annotation-1.0.0">
+        <groupId>androidx.annotation</groupId>
+        <artifactId>annotation</artifactId>
+        <version>1.0.0</version>
+        <type>jar</type>
+        <repo>google</repo>
+        <category>support</category>
+        <dependencies/>
+    </package>
+    <package name="loader-1.0.0">
+        <groupId>androidx.loader</groupId>
+        <artifactId>loader</artifactId>
+        <version>1.0.0</version>
+        <type>aar</type>
+        <repo>google</repo>
+        <category>support</category>
+        <dependencies/>
+    </package>
+    <package name="legacy-support-core-ui-1.0.0">
+        <groupId>androidx.legacy</groupId>
+        <artifactId>legacy-support-core-ui</artifactId>
+        <version>1.0.0</version>
+        <type>aar</type>
+        <repo>google</repo>
+        <category>support</category>
+        <dependencies/>
+    </package>
+    <package name="legacy-support-core-utils-1.0.0">
+        <groupId>androidx.legacy</groupId>
+        <artifactId>legacy-support-core-utils</artifactId>
+        <version>1.0.0</version>
+        <type>aar</type>
+        <repo>google</repo>
+        <category>support</category>
+        <dependencies/>
+    </package>
+    <package name="fragment-1.0.0">
+        <groupId>androidx.fragment</groupId>
+        <artifactId>fragment</artifactId>
+        <version>1.0.0</version>
+        <type>aar</type>
+        <repo>google</repo>
+        <category>support</category>
+        <dependencies/>
+    </package>
+    <package name="lifecycle-runtime-2.0.0">
+        <groupId>androidx.lifecycle</groupId>
+        <artifactId>lifecycle-runtime</artifactId>
+        <version>2.0.0</version>
+        <type>aar</type>
+        <repo>google</repo>
+        <category>support</category>
+        <dependencies/>
+    </package>
+    <package name="lifecycle-common-2.0.0">
+        <groupId>androidx.lifecycle</groupId>
+        <artifactId>lifecycle-common</artifactId>
+        <version>2.0.0</version>
+        <type>jar</type>
+        <repo>google</repo>
+        <category>support</category>
+        <dependencies/>
+    </package>
+    <package name="lifecycle-viewmodel-2.0.0">
+        <groupId>androidx.lifecycle</groupId>
+        <artifactId>lifecycle-viewmodel</artifactId>
+        <version>2.0.0</version>
+        <type>aar</type>
+        <repo>google</repo>
+        <category>support</category>
+        <dependencies/>
+    </package>
+    <package name="lifecycle-livedata-2.0.0">
+        <groupId>androidx.lifecycle</groupId>
+        <artifactId>lifecycle-livedata</artifactId>
+        <version>2.0.0</version>
+        <type>aar</type>
+        <repo>google</repo>
+        <category>support</category>
+        <dependencies/>
+    </package>
+    <package name="lifecycle-livedata-core-2.0.0">
+        <groupId>androidx.lifecycle</groupId>
+        <artifactId>lifecycle-livedata-core</artifactId>
+        <version>2.0.0</version>
+        <type>aar</type>
+        <repo>google</repo>
+        <category>support</category>
+        <dependencies/>
+    </package>
+    <package name="arch-core-common-2.1.0">
+        <groupId>androidx.arch.core</groupId>
+        <artifactId>core-common</artifactId>
+        <version>2.1.0</version>
+        <type>jar</type>
+        <repo>google</repo>
+        <category>support</category>
+        <dependencies/>
+    </package>
+    <package name="arch-core-runtime-2.1.0">
+        <groupId>androidx.arch.core</groupId>
+        <artifactId>core-runtime</artifactId>
+        <version>2.1.0</version>
+        <type>aar</type>
+        <repo>google</repo>
+        <category>support</category>
+        <dependencies/>
+    </package>
+    <package name="core-1.6.0">
+        <groupId>androidx.core</groupId>
+        <packageName>androidx.core</packageName>
+        <artifactId>core</artifactId>
+        <version>1.6.0</version>
+        <type>aar</type>
+        <repo>google</repo>
+        <category>support</category>
+        <dependencies/>
+    </package>
+    <package name="collection-1.1.0">
+        <groupId>androidx.collection</groupId>
+        <artifactId>collection</artifactId>
+        <version>1.1.0</version>
+        <type>jar</type>
+        <repo>google</repo>
+        <category>support</category>
+        <dependencies/>
+    </package>
+    
 
     <package name="play-services-auth">
         <groupId>com.google.android.gms</groupId>
@@ -1249,6 +1498,71 @@
             </package>
         </dependencies>
     </package>
+
+    <package name="play-services-auth-20.3.0">
+        <groupId>com.google.android.gms</groupId>
+        <packageName>com.google.android.gms.auth</packageName>
+        <artifactId>play-services-auth</artifactId>
+        <version>20.3.0</version>
+        <type>aar</type>
+        <repo>google</repo>
+        <category>play-services</category>
+        <dependencies>
+            <package name="play-services-auth-base">
+                <groupId>com.google.android.gms</groupId>
+                <artifactId>play-services-auth-base</artifactId>
+                <version>18.0.4</version>
+                <type>aar</type>
+                <repo>google</repo>
+            </package>
+            <package name="play-services-auth-api-phone">
+                <groupId>com.google.android.gms</groupId>
+                <artifactId>play-services-auth-api-phone</artifactId>
+                <version>18.0.1</version>
+                <type>aar</type>
+                <repo>google</repo>
+            </package>
+        </dependencies>
+    </package>
+
+    <package name="play-services-games-20.0.0">
+        <groupId>com.google.android.gms</groupId>
+        <packageName>com.google.android.gms.games</packageName>
+        <artifactId>play-services-games</artifactId>
+        <version>20.0.0</version>
+        <type>aar</type>
+        <repo>google</repo>
+        <category>play-services</category>
+        <dependencies>
+            <package name="play-services-drive">
+                <groupId>com.google.android.gms</groupId>
+                <artifactId>play-services-drive</artifactId>
+                <version>17.0.0</version>
+                <type>aar</type>
+                <repo>google</repo>
+            </package>
+        </dependencies>
+    </package>
+
+    <package name="play-services-games-23.0.0">
+        <groupId>com.google.android.gms</groupId>
+        <packageName>com.google.android.gms.games</packageName>
+        <artifactId>play-services-games</artifactId>
+        <version>23.0.0</version>
+        <type>aar</type>
+        <repo>google</repo>
+        <category>play-services</category>
+        <dependencies>
+            <package name="play-services-drive">
+                <groupId>com.google.android.gms</groupId>
+                <artifactId>play-services-drive</artifactId>
+                <version>17.0.0</version>
+                <type>aar</type>
+                <repo>google</repo>
+            </package>
+        </dependencies>
+    </package>
+
 
     <package name="play-services-games">
         <groupId>com.google.android.gms</groupId>
